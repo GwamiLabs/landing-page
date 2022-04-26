@@ -89,7 +89,7 @@
             <img class="card-img-top" src="../assets/PageThree/Sy-Zygy.svg" 
             alt="image-photo"/>
             <h5 class="card-title">Sy Zygy</h5>
-            <span>Advisor to KlimaDAO, product lead of KlimaDAO</span>
+            <span>Advisor to GwamiLabs, product lead of KlimaDAO</span>
             <div class="card-twitter-icon">
               <a href="https://twitter.com/sy_zygy_">
                   <TwitterBird />
