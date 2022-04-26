@@ -19,7 +19,7 @@
       padding-right:0px;
       padding-top:76px; 
       padding-bottom:119px;">
-    <div class="row d-flex justify-contents-center bg-transparent"
+    <div class="row d-flex justify-contents-center align-items-center bg-transparent"
     style="padding-top:76px; padding-bottom:119px;">
       <div class="col mb-5">
       <a class="partner-logo-link" href="https://www.klimadao.finance/">

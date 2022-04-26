@@ -1,8 +1,7 @@
 <template>
-  <section id="Intro" class="intro-Page" style="background-color:#F3FCE2;">
+  <section id="Intro" class="text-center  intro-Page" style="background-color:#F3FCE2;">   
     <NavBar/>
-    <div class="row justify-contents-between">
-      <div class="d-flex flex-column flex-md-row">
+    <div class="d-flex flex-column flex-md-row justify-contents-between px-0 mx-0">
       <div class="d-none d-md-block col-3">
         <img class="img-fluid" src="../assets/PageOne/Leaves-Pg1-Left.svg"/>
       </div>
@@ -44,13 +43,13 @@
         <br class="d-block d-md-none">
         </div>
       </div>
-      <div class="d-none d-md-block col-3">
+      <div class="d-none d-md-block col-3 mx-0">
         <img class="img-fluid" src="../assets/PageOne/Leaves-Pg1-Right.svg"/>
       </div>
        <div class="d-block d-md-none col-12">
         <img class="col-12 img-fluid" src="../assets/PageOne/Leaves-Pg1-Bottom.svg"/>
       </div>
-    </div>
+
     </div>
   </section>
 </template>
