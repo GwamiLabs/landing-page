@@ -2,14 +2,14 @@
   <section id="Intro" class="intro-Page" style="background-color:#F3FCE2;">
     <NavBar/>
     <div class="row justify-contents-between">
-      <div class="d-flex flex-column flex-lg-row">
-      <div class="d-none d-lg-block col-3">
-        <img class="" src="../assets/PageOne/Leaves-Pg1-Left.svg"/>
+      <div class="d-flex flex-column flex-md-row">
+      <div class="d-none d-md-block col-3">
+        <img class="img-fluid" src="../assets/PageOne/Leaves-Pg1-Left.svg"/>
       </div>
-      <div class="d-block d-lg-none col-12">
+      <div class="d-block d-md-none col-12">
         <img class="col-12 img-fluid" src="../assets/PageOne/Leaves-Pg1-Top.svg"/>
       </div>
-      <div class="col-12 col-lg-6 py-0 py-lg-1 text-center">
+      <div class="col-12 col-md-6 py-0 py-lg-1 text-center">
         <h1 class="intro-title">
           Products for climate action
         </h1>
@@ -21,33 +21,33 @@
         education and amplification.</p>
         <div>
         <span class="PageOneLegend">Unlock Refi</span>
-        <br class="d-block d-lg-none">
+        <br class="d-block d-md-none">
         <span class=" mx-3 PageOneLeafIcon">
           <img src="../assets/PageOne/Green-Leaf-2.svg"/>
         </span>
-        <br class="d-block d-lg-none">
+        <br class="d-block d-md-none">
         <span class="PageOneLegend">Build on KlimaDAO</span>
-        <br class="d-block d-lg-none">
-        <br class="d-none d-lg-block">
-        <span class="d-block d-lg-none PageOneLeafIcon">
+        <br class="d-block d-md-none">
+        <br class="d-none d-md-block">
+        <span class="d-block d-md-none PageOneLeafIcon">
           <img src="../assets/PageOne/Green-Leaf-2.svg"/>
         </span>
-        <br class="d-block d-lg-none">
+        <br class="d-block d-md-none">
         <span class="PageOneLegend">Collaborate globally</span>
-        <br class="d-block d-lg-none">
+        <br class="d-block d-md-none">
         <span class=" mx-3 PageOneLeafIcon">
           <img src="../assets/PageOne/Green-Leaf-2.svg"/>
         </span>
-        <br class="d-block d-lg-none">
+        <br class="d-block d-md-none">
         <span class="PageOneLegend">Promote climate action</span>
-        <br class="d-block d-lg-none">
-        <br class="d-block d-lg-none">
+        <br class="d-block d-md-none">
+        <br class="d-block d-md-none">
         </div>
       </div>
-      <div class="d-none d-lg-block col-3">
+      <div class="d-none d-md-block col-3">
         <img class="img-fluid" src="../assets/PageOne/Leaves-Pg1-Right.svg"/>
       </div>
-       <div class="d-block d-lg-none col-12">
+       <div class="d-block d-md-none col-12">
         <img class="col-12 img-fluid" src="../assets/PageOne/Leaves-Pg1-Bottom.svg"/>
       </div>
     </div>
