@@ -22,22 +22,23 @@
     <div class="row d-flex justify-contents-center align-items-center bg-transparent"
     style="padding-top:76px; padding-bottom:119px;">
       <div class="col g-5">
-      <a class="partner-logo-link" href="https://www.klimadao.finance/">
+      <a class="partner-logo-link" target="_blank" href="https://www.klimadao.finance/">
         <img class="partner-Logo" src="../assets/PageFour/Klima-Logo-1.svg"/>
       </a>
       </div>
       <div class="col g-5">
-      <a class="partner-logo-link" href="https://twitter.com/punkdomains">
-        <img class="partner-Logo" src="../assets/PageFour/Punk-Domains-Logo.svg"/>
+      <a class="partner-logo-link text-nowrap" target="_blank" href="https://punk.domains">
+        <img class="punk-logo-img img-fluid" src="@/assets/punk/punk-logo512.png" />
+        <span class="punk-logo-text">Punk Domains</span>
       </a>
       </div>
       <div class="col g-5">
-      <a class="partner-logo-link" href="https://verify.onsetcarbon.com/">
+      <a class="partner-logo-link" target="_blank" href="https://verify.onsetcarbon.com/">
         <img class="partner-Logo" src="../assets/PageFour/Onset-Carbon.svg"/>
       </a>
       </div>
       <div class="col g-5">
-      <a class="partner-logo-link" href="https://carbonwallet.earth/">
+      <a class="partner-logo-link" target="_blank" href="https://carbonwallet.earth/">
         <img class="partner-Logo" src="../assets/PageFour/Carbon-Wallet-Logo.svg"/>
       </a>
       </div>
@@ -57,12 +58,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 .partner-logo-link{
   margin-top:52px;
   margin-bottom:52px;
   margin-left:52px;
   margin-right:52px;
+  text-decoration: none;
 }
 
 .partner-page-title {
@@ -76,4 +77,23 @@ export default {
   width: 186px;
 }
 
+/* Punk Domains */
+@font-face { 
+  font-family: "Cyber";
+  src: url("@/assets/punk/Cyber.ttf"); 
+}
+
+.punk-logo-img {
+  width: 2em;
+  margin-right: 5px;
+  vertical-align: top;
+}
+
+.punk-logo-text {
+  font-family: 'Cyber', cursive;
+  font-size: 1.5em;
+  color: black;
+  vertical-align: sub;
+}
+/* END Punk Domains */
 </style>
