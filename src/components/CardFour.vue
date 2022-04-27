@@ -21,22 +21,22 @@
       padding-bottom:119px;">
     <div class="row d-flex justify-contents-center align-items-center bg-transparent"
     style="padding-top:76px; padding-bottom:119px;">
-      <div class="col mb-5">
+      <div class="col g-5">
       <a class="partner-logo-link" href="https://www.klimadao.finance/">
         <img class="partner-Logo" src="../assets/PageFour/Klima-Logo-1.svg"/>
       </a>
       </div>
-      <div class="col mb-5">
+      <div class="col g-5">
       <a class="partner-logo-link" href="https://twitter.com/punkdomains">
         <img class="partner-Logo" src="../assets/PageFour/Punk-Domains-Logo.svg"/>
       </a>
       </div>
-      <div class="col mb-5">
+      <div class="col g-5">
       <a class="partner-logo-link" href="https://verify.onsetcarbon.com/">
         <img class="partner-Logo" src="../assets/PageFour/Onset-Carbon.svg"/>
       </a>
       </div>
-      <div class="col mb-5">
+      <div class="col g-5">
       <a class="partner-logo-link" href="https://carbonwallet.earth/">
         <img class="partner-Logo" src="../assets/PageFour/Carbon-Wallet-Logo.svg"/>
       </a>

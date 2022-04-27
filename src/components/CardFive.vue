@@ -21,7 +21,7 @@
             style="
               width: 275px;
               height:105px;
-              margin-bottom:54px;
+              margin-bottom:64px;
               margin-left:5px;
               margin-right:5px;   
               "/>
@@ -34,7 +34,7 @@
             style="
               width: 283px;
               height:130px;
-              margin-bottom:54px;
+              margin-bottom:64px;
               margin-left:5px;
               margin-right:5px;                 
               "/>
@@ -50,7 +50,7 @@
             style="
               width: 392px;
               height:57px;  
-              margin-bottom:54px;   
+              margin-bottom:64px;   
               margin-left:5px;
               margin-right:5px;            
               "

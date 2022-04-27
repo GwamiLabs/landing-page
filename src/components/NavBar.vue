@@ -13,19 +13,19 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
-        <li class="nav-item">
+        <li class="nav-item mx-2">
           <a class="nav-link" aria-current="page" href="#Products">Products</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item mx-2">
           <a class="nav-link" aria-current="page" href="#Team">Team</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item mx-2">
           <a class="nav-link" aria-current="page" href="#Partners">Partners</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item mx-2">
           <a class="nav-link" aria-current="page" href="#KlimaEcosystem">Klima Ecosystem</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item mx-2">
           <a class="nav-link" aria-current="page" href="#ContactUs">Contact Us</a>
         </li>
       </ul>
