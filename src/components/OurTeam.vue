@@ -106,7 +106,7 @@
 import TwitterBird from "./icons/TwitterBird.vue"
 //import TeamMemberCard from "./TeamMemberCard.vue";
 export default {
-    name: "CardThree",
+    name: "OurTeam",
     components: { TwitterBird },
 }
 </script>
@@ -165,6 +165,7 @@ export default {
   padding-left: 115px;
   padding-right: 115px;
   padding-bottom:140px;
+  max-width:1500px
 }
 
 @media only screen and (max-width: 767px) {

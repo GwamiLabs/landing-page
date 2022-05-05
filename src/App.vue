@@ -1,27 +1,31 @@
 <template>
-  <CardOne/>
-  <CardTwo/>
-  <CardThree/>
-  <CardFour/>
-  <CardFive/>
+  <NavBar />
+  <IntroPage/>
+  <OurProducts/>
+  <OurTeam/>
+  <OurPartners/>
+  <KlimaEcosystem/>
   
 </template>
 
 <script>
-import CardOne from './components/CardOne.vue'
-import CardTwo from './components/CardTwo.vue'
-import CardThree from './components/CardThree.vue'
-import CardFour from './components/CardFour.vue'
-import CardFive from './components/CardFive.vue'
+
+import NavBar from "./components/NavBar.vue";
+import IntroPage from './components/IntroPage.vue'
+import OurProducts from './components/OurProducts.vue'
+import OurTeam from './components/OurTeam.vue'
+import OurPartners  from './components/OurPartners.vue'
+import KlimaEcosystem from './components/KlimaEcosystem.vue'
 
 export default {
   name: 'App',
   components: {
-    CardOne,
-    CardTwo,
-    CardThree,
-    CardFour,
-    CardFive,
+    NavBar,
+    IntroPage,
+    OurProducts,
+    OurTeam,
+    OurPartners,
+    KlimaEcosystem
 }
 }
 </script>

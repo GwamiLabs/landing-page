@@ -1,5 +1,5 @@
 <template>
-<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+<nav class="navbar py-0 sticky-top navbar-expand-lg navbar-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
       <span class="mx-auto">
@@ -43,6 +43,9 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
+.navbar {
+  background-color:#F3FCE2;
+}
 .navbar-brand{
   padding-left:17%;
 }
@@ -67,6 +70,20 @@ export default {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(109,144,50, 0.75)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+
+@media only screen and (min-width: 1980px) {
+
+  img{
+    width:8vw;
+  }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #6D9032;
+  font-family:'OpenSans', sans-serif;
+  font-weight: 700;
+  font-size:2vh;
+}
+}
 
 @media only screen and (max-width: 767px) {
   .navbar .navbar-nav{

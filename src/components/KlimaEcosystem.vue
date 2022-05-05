@@ -12,6 +12,7 @@
         <img src='../assets/PageFive/Text-framer-emdash.svg'/>
       </span>
     </h1>
+    <div class="container-fluid" style="max-width:1690px;">
     <div class="row align-items-center justify-content-center"
         style="margin-top:106px; ">
         <div class="col-12 col-md gx-5">
@@ -71,6 +72,7 @@
               </a>
             </div>
     </div>
+    </div>
 
   <footer>
     <div class="row justify-contents-center"
@@ -81,31 +83,28 @@
       </svg>
   </div>
     <div class="container-fluid">
-    <div class="row justify-content-between" style="padding-top:10px;">
-    <div class="col-4">
+    <div class="row row-cols-1 justify-content-center">
+    <div class="col-12 mt-4">
       <a href="#Intro">
         <img src="../assets/PageFive/Gwami-Logo-Side-Green-7-2.svg"/>
       </a>
     </div>
-    <div id="ContactUs" class="col-4">
+    <div id="ContactUs" class="col-12 mt-4">
       <a href="https://github.com/GwamiLabs">
-      <img class="mx-4" src="../assets/PageFive/github.svg"/>
+        <img class="mx-4" src="../assets/PageFive/github.svg"/>
       </a>
       <a href="https://discord.gg/gwamilabs">
-      <img class="mx-4" src="../assets/PageFive/Discord.svg"/>
+        <img class="mx-4" src="../assets/PageFive/Discord.svg"/>
       </a>
       <a href="https://twitter.com/gwamilabs">
-      <img class="mx-4" src="../assets/PageFive/Twitter.svg"/>
+        <img class="mx-4" src="../assets/PageFive/Twitter.svg"/>
       </a>
     </div>
     </div>
-    <div class="row text-end"
-        >
-      <div class="col-12">
+    <div class="col-12 mt-4">
       <span class="px-4 copyright-legend">Gwami Labs &copy; 2022</span>
       <span class="px-4 copyright-legend">All rights reserved.</span>
       </div>
-    </div>
     </div>
     
     </footer>
@@ -114,7 +113,7 @@
 
 <script>
 export default {
-  name: 'CardFive'
+  name: 'KlimaEcosystem',
 }
 </script>
 
@@ -127,10 +126,6 @@ export default {
         font-size:36px;
 }
 
-.footer {
-  position:absolute;
-  bottom:0px;
-}
 
 .copyright-legend{
   white-space:nowrap;

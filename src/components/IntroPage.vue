@@ -1,9 +1,8 @@
 <template>
   <section id="Intro" class="text-center  intro-Page" style="background-color:#F3FCE2;">   
-    <NavBar/>
-    <div class="d-flex flex-column flex-md-row justify-contents-between">
-      <div class="d-none d-md-block col-3 p-0 mb-0 mx-0 h-100" >
-        <img class="img-fluid col-12" src="../assets/PageOne/Leaves-Pg1-Left.svg"/>
+    <div class="d-flex flex-column flex-md-row h-75 justify-contents-between align-items-end">
+      <div class="d-none d-md-block col-3 p-0 mb-0 mx-0 h-100 float-right overflow-x-hidden" >
+        <img class="img-fluid col-10 col-lg-11 float-start overflow-x-hidden" src="../assets/PageOne/Leaves-Pg1-Left.svg"/>
       </div>
       <div class="d-block d-md-none col-12">
         <img class="col-12 img-fluid" src="../assets/PageOne/Leaves-Pg1-Top.svg"/>
@@ -21,30 +20,34 @@
         <div>
         <span class="PageOneLegend">Unlock Refi</span>
         <br class="d-block d-md-none">
-        <span class=" mx-3 PageOneLeafIcon">
-          <img src="../assets/PageOne/Green-Leaf-2.svg"/>
+        <span class=" mx-3">
+          <img class="PageOneLeafIcon" src="../assets/PageOne/Green-Leaf-2.svg"/>
         </span>
         <br class="d-block d-md-none">
         <span class="PageOneLegend">Build on KlimaDAO</span>
-        <br class="d-block d-md-none">
         <br class="d-none d-md-block">
-        <span class="d-block d-md-none PageOneLeafIcon">
-          <img src="../assets/PageOne/Green-Leaf-2.svg"/>
+        <span class="d-block d-md-none">
+          <img class="PageOneLeafIcon" src="../assets/PageOne/Green-Leaf-2.svg"/>
         </span>
-        <br class="d-block d-md-none">
         <span class="PageOneLegend">Collaborate globally</span>
         <br class="d-block d-md-none">
-        <span class=" mx-3 PageOneLeafIcon">
-          <img src="../assets/PageOne/Green-Leaf-2.svg"/>
+        <span class=" mx-3 ">
+          <img class="PageOneLeafIcon" src="../assets/PageOne/Green-Leaf-2.svg"/>
         </span>
         <br class="d-block d-md-none">
         <span class="PageOneLegend">Promote climate action</span>
         <br class="d-block d-md-none">
         <br class="d-block d-md-none">
+        <div class="d-none d-lg-block col-12" >
+          <div style= "height:100px;"></div>
+        </div>
+        <div class="d-none d-md-block d-lg-none col-12" >
+          <div style= "height:25px;"></div>
+        </div>
         </div>
       </div>
-      <div class="d-none d-md-block col-3 p-0 mb-0 mx-0 h-100">
-        <img class="img-fluid col-12" src="../assets/PageOne/Leaves-Pg1-Right.svg"/>
+      <div class="d-none d-md-block col-3 mx-0 h-100">
+        <img class="img-fluid col-11 col-lg-12 float-end" src="../assets/PageOne/Leaves-Pg1-Right.svg"/>
       </div>
        <div class="d-block d-md-none col-12">
         <img class="col-12 img-fluid" src="../assets/PageOne/Leaves-Pg1-Bottom.svg"/>
@@ -55,10 +58,8 @@
 </template>
 
 <script>
-import NavBar from "./NavBar.vue";
 export default {
-    name: "CardOne",
-    components: { NavBar }
+    name: "IntroPage",
 }
 </script>
 
@@ -81,6 +82,7 @@ h1 {
   font-size:72px;
 }
 
+
 .PageOneLegend{
     font-family: 'Frank Ruhl Libre', serif;
     font-weight: 700;
@@ -88,6 +90,9 @@ h1 {
     color:#304010;
 }
 
+.PageOneLeafIcon{
+  width:24px;
+}
 
 .leaves-bottom{
   transform: scale(1,1);
@@ -96,6 +101,38 @@ h1 {
 
 .leaves-top{
   transform: scale(1,1);
+}
+
+@media only screen and (min-width: 1980px) {
+
+  h1 {
+    margin-top:4vh;
+    font-size:8vh;
+  }
+  p {
+    margin-top:4vh;
+    font-size:4vh;
+  }
+  .PageOneLegend {
+    font-size:6vh;
+    white-space: nowrap;
+    margin-top:4vh;
+    margin-bottom:4vh;
+  }
+
+  .PageOneLeafIcon{
+  width:6vh;;
+}
+
+.leaves-bottom{
+  transform: scale(7,1);
+
+}
+
+.leaves-top{
+  transform: scale(7,1);
+}
+
 }
 
 @media only screen and (max-width: 992px and min-width:768px) {

@@ -56,7 +56,7 @@
 
 <script>
 export default {
-    name: "CardTwo"
+    name: "OurProducts",
 }
 </script>
 

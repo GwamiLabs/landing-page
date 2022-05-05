@@ -15,29 +15,30 @@
     </h1>
     <div class="container-fluid" 
       style="
+      max-width:1690px
       padding-left:0px;
       padding-right:0px;
       padding-top:76px; 
       padding-bottom:119px;">
-    <div class="row d-flex justify-contents-center align-items-center bg-transparent"
+    <div class="row d-flex float-center align-items-center bg-transparent"
     style="padding-top:76px; padding-bottom:119px;">
-      <div class="col g-5">
+      <div class="card col">
       <a class="partner-logo-link" target="_blank" href="https://www.klimadao.finance/">
         <img class="partner-Logo" src="../assets/PageFour/Klima-Logo-1.svg"/>
       </a>
       </div>
-      <div class="col g-5">
+      <div class="card col">
       <a class="partner-logo-link text-nowrap" target="_blank" href="https://punk.domains">
         <img class="punk-logo-img img-fluid" src="@/assets/punk/punk-logo512.png" />
         <span class="punk-logo-text">Punk Domains</span>
       </a>
       </div>
-      <div class="col g-5">
+      <div class="card col">
       <a class="partner-logo-link" target="_blank" href="https://verify.onsetcarbon.com/">
         <img class="partner-Logo" src="../assets/PageFour/Onset-Carbon.svg"/>
       </a>
       </div>
-      <div class="col g-5">
+      <div class="card col">
       <a class="partner-logo-link" target="_blank" href="https://carbonwallet.earth/">
         <img class="partner-Logo" src="../assets/PageFour/Carbon-Wallet-Logo.svg"/>
       </a>
@@ -52,7 +53,7 @@
 
 <script>
 export default {
-  name: 'CardFour'
+  name: 'OurPartners',
 }
 </script>
 
@@ -66,11 +67,23 @@ export default {
   text-decoration: none;
 }
 
+.card {
+        margin: 32px; /* Added */
+        float: center;
+        margin-top: 71px;
+        min-height:210px;
+        min-width: 260px;
+        width: 260px;
+        background-color: transparent;
+        border:1px transparent;
+}
+
 .partner-page-title {
         color:#202832; 
         padding-top:70px; 
         font-size:36px;
 }
+
 
 .partner-Logo {
 
