@@ -1,33 +1,31 @@
 <template>
   <NavBar />
-  <IntroPage/>
-  <OurProducts/>
-  <OurTeam/>
-  <OurPartners/>
-  <KlimaEcosystem/>
-  
+  <IntroPage />
+  <OurProducts />
+  <OurTeam />
+  <OurPartners />
+  <KlimaEcosystem />
 </template>
 
 <script>
-
 import NavBar from "./components/NavBar.vue";
-import IntroPage from './components/IntroPage.vue'
-import OurProducts from './components/OurProducts.vue'
-import OurTeam from './components/OurTeam.vue'
-import OurPartners  from './components/OurPartners.vue'
-import KlimaEcosystem from './components/KlimaEcosystem.vue'
+import IntroPage from "./components/IntroPage.vue";
+import OurProducts from "./components/OurProducts.vue";
+import OurTeam from "./components/OurTeam.vue";
+import OurPartners from "./components/OurPartners.vue";
+import KlimaEcosystem from "./components/KlimaEcosystem.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     NavBar,
     IntroPage,
     OurProducts,
     OurTeam,
     OurPartners,
-    KlimaEcosystem
-}
-}
+    KlimaEcosystem,
+  },
+};
 </script>
 
 <style>
@@ -35,5 +33,9 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+body {
+  height: 100%;
+  background-color: #f3fce2;
 }
 </style>
