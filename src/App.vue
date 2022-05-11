@@ -36,6 +36,17 @@ export default {
 }
 body {
   height: 100%;
-  background-color: #f3fce2;
+  background-image: linear-gradient(
+    #c2cab5 0%,
+    #c2cab5 22%,
+    #3a4c17 22%,
+    #3a4c17 45.2%,
+    #caccc6 45.2%,
+    #caccc6 66%,
+    #c2cab5 66%,
+    #c2cab5 77.3%,
+    #caccc6 77.3%,
+    #caccc6 100%
+  );
 }
 </style>
