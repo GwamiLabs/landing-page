@@ -38,8 +38,12 @@
           </div>
           <div class="col-12 col-lg-6 g-5 d-flex align-top">
             <img
-              class="img-fluid mb-5"
+              class="d-none d-md-block img-fluid mb-5"
               src="../assets/PageTwo/SampleKlimaDomains.svg"
+            />
+            <img
+              class="d-block d-md-none img-fluid mb-5"
+              src="../assets/PageTwo/SampleKlimaDomains.png"
             />
             <div style="margin-bottom: 96px"><br /></div>
           </div>
